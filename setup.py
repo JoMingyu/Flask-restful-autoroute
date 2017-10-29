@@ -13,4 +13,5 @@ setup(name='flask- restful-autoroute',
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules'
       ],
-      packages=['flask_restful_autoroute'])
+      packages=['flask_restful_autoroute'],
+      install_requires=['reflections', 'flask', 'flask-restful', 'flask-restful-swagger-2'])
